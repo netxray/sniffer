@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="GB2312"?>
+<ipnumber desc="Assigned Internet Protocol Numbers">
+	<number decimal="0"    	keyword="HOPOPT"			protocol="IPv6 Hop-by-Hop Option" references="RFC1883"/>
+	<number decimal="1"    	keyword="ICMP"				protocol="Internet Control Message" references="RFC792"/>
+	<number decimal="2"    	keyword="IGMP"				protocol="Internet Group Management" references="RFC1112"/>
+	<number decimal="3"    	keyword="GGP"				protocol="Gateway-to-Gateway" references="RFC823"/>
+	<number decimal="4"    	keyword="IP"				protocol="IP in IP (encapsulation)" references="RFC2003"/>
+	<number decimal="5"    	keyword="ST"				protocol="Stream" references="RFC1190,RFC1819"/>
+	<number decimal="6"    	keyword="TCP"				protocol="Transmission Control" references="RFC793"/>
+	<number decimal="7"    	keyword="CBT"				protocol="CBT" references="Ballardie"/>
+	<number decimal="8"    	keyword="EGP"				protocol="Exterior Gateway Protocol" references="RFC888,DLM1"/>
+	<number decimal="9"    	keyword="IGP"				protocol="any private interior gateway (used by Cisco for their IGRP)" references="IANA"/>
+	<number decimal="10"   	keyword="BBN-RCC-MON"		protocol="BBN RCC Monitoring" references="SGC"/>
+	<number decimal="11"   	keyword="NVP-II"			protocol="Network Voice Protocol" references="RFC741,SC3"/>
+	<number decimal="12"   	keyword="PUP"				protocol="PUP" references="PUP,XEROX"/>
+	<number decimal="13"   	keyword="ARGUS"				protocol="ARGUS" references="RWS4"/>
+	<number decimal="14"   	keyword="EMCON"				protocol="EMCON" references="BN7"/>
+	<number decimal="15"   	keyword="XNET"				protocol="Cross Net Debugger" references="IEN158,JFH2"/>
+	<number decimal="16"   	keyword="CHAOS"				protocol="Chaos" references="NC3"/>
+	<number decimal="17"   	keyword="UDP"				protocol="User Datagram" references="RFC768,JBP"/>
+	<number decimal="18"   	keyword="MUX"				protocol="Multiplexing" references="IEN90,JBP"/>
+	<number decimal="19"   	keyword="DCN-MEAS"			protocol="DCN Measurement Subsystems" references="DLM1"/>
+	<number decimal="20"   	keyword="HMP"				protocol="Host Monitoring" references="RFC869,RH6"/>
+	<number decimal="21"   	keyword="PRM"				protocol="Packet Radio Measurement" references="ZSU"/>
+	<number decimal="22"   	keyword="XNS-IDP"			protocol="XEROX NS IDP" references="ETHERNET,XEROX"/>
+	<number decimal="23"   	keyword="TRUNK-1"			protocol="Trunk-1" references="BWB6"/>
+	<number decimal="24"   	keyword="TRUNK-2"			protocol="Trunk-2" references="BWB6"/>
+	<number decimal="25"   	keyword="LEAF-1"			protocol="Leaf-1" references="BWB6"/>
+	<number decimal="26"   	keyword="LEAF-2"			protocol="Leaf-2" references="BWB6"/>
+	<number decimal="27"   	keyword="RDP"				protocol="Reliable Data Protocol" references="RFC908,RH6"/>
+	<number decimal="28"   	keyword="IRTP"				protocol="Internet Reliable Transaction" references="RFC938,TXM"/>
+	<number decimal="29"   	keyword="ISO-TP4"			protocol="ISO Transport Protocol Class 4" references="RFC905,RC77"/>
+	<number decimal="30"   	keyword="NETBLT"			protocol="Bulk Data Transfer Protocol" references="RFC969,DDC1"/>
+	<number decimal="31"   	keyword="MFE-NSP"			protocol="MFE Network Services Protocol" references="MFENET,BCH2"/>
+	<number decimal="32"   	keyword="MERIT-INP"			protocol="MERIT Internodal Protocol" references="HWB"/>
+	<number decimal="33"   	keyword="SEP"				protocol="Sequential Exchange Protocol" references="JC120"/>
+	<number decimal="34"   	keyword="3PC"				protocol="Third Party Connect Protocol" references="SAF3"/>
+	<number decimal="35"   	keyword="IDPR"				protocol="Inter-Domain Policy Routing Protocol" references="MXS1"/> 
+	<number decimal="36"   	keyword="XTP"				protocol="XTP" references="GXC"/>
+	<number decimal="37"   	keyword="DDP"				protocol="Datagram Delivery Protocol" references="WXC"/>
+	<number decimal="38"   	keyword="IDPR-CMTP"			protocol="IDPR Control Message Transport Proto" references="MXS1"/>
+	<number decimal="39"   	keyword="TP++"				protocol="TP++ Transport Protocol" references="DXF"/>
+	<number decimal="40"   	keyword="IL"				protocol="IL Transport Protocol" references="Presotto"/>
+	<number decimal="41"   	keyword="IPv6"				protocol="Ipv6" references="Deering"/> 
+	<number decimal="42"   	keyword="SDRP"				protocol="Source Demand Routing Protocol" references="DXE1"/>
+	<number decimal="43"   	keyword="IPv6-Route"		protocol="Routing Header for IPv6" references="Deering"/>
+	<number decimal="44"   	keyword="IPv6-Frag"			protocol="Fragment Header for IPv6" references="Deering"/>
+	<number decimal="45"   	keyword="IDRP"				protocol="Inter-Domain Routing Protocol" references="Sue Hares"/>
+	<number decimal="46"   	keyword="RSVP"				protocol="Reservation Protocol" references="Bob Braden"/>
+	<number decimal="47"   	keyword="GRE"				protocol="General Routing Encapsulation" references="Tony Li"/>
+	<number decimal="48"   	keyword="MHRP"				protocol="Mobile Host Routing Protocol" references="David Johnson"/>
+	<number decimal="49"   	keyword="BNA"				protocol="BNA" references="Gary Salamon"/>
+	<number decimal="50"   	keyword="ESP"				protocol="Encap Security Payload for IPv6" references="RFC2406"/>
+	<number decimal="51"   	keyword="AH"				protocol="Authentication Header for IPv6" references="RFC2402"/>
+	<number decimal="52"   	keyword="I-NLSP"			protocol="Integrated Net Layer Security TUBA" references="GLENN"/>
+	<number decimal="53"   	keyword="SWIPE"				protocol="IP with Encryption" references="JI6"/>
+	<number decimal="54"   	keyword="NARP"				protocol="NBMA Address Resolution Protocol" references="RFC1735"/>
+	<number decimal="55"   	keyword="MOBILE"			protocol="IP Mobility" references="Perkins"/>
+	<number decimal="56"   	keyword="TLSP"				protocol="Transport Layer Security Protocol using Kryptonet key management" references="Oberg"/>
+	<number decimal="57"   	keyword="SKIP"				protocol="SKIP" references="Markson"/>
+	<number decimal="58"   	keyword="IPv6-ICMP"			protocol="ICMP for IPv6" references="RFC1883"/>
+	<number decimal="59"   	keyword="IPv6-NoNxt"		protocol="No Next Header for IPv6" references="RFC1883"/>
+	<number decimal="60"   	keyword="IPv6-Opts"			protocol="Destination Options for IPv6" references="RFC1883"/>
+	<number decimal="61"   								protocol="any host internal protocol" references="IANA"/>
+	<number decimal="62"   	keyword="CFTP"				protocol="CFTP" references="CFTP,HCF2"/>
+	<number decimal="63"   								protocol="any local network" references="IANA"/>
+	<number decimal="64"   	keyword="SAT-EXPAK"			protocol="SATNET and Backroom EXPAK" references="SHB"/>
+	<number decimal="65"   	keyword="KRYPTOLAN"			protocol="Kryptolan" references="PXL1"/>
+	<number decimal="66"   	keyword="RVD"				protocol="MIT Remote Virtual Disk Protocol" references="MBG"/>
+	<number decimal="67"   	keyword="IPPC"				protocol="Internet Pluribus Packet Core" references="SHB"/>
+	<number decimal="68"   								protocol="any distributed file system" references="IANA"/>
+	<number decimal="69"   	keyword="SAT-MON"			protocol="SATNET Monitoring" references="SHB"/>
+	<number decimal="70"   	keyword="VISA"				protocol="VISA Protocol" references="GXT1"/>
+	<number decimal="71"   	keyword="IPCV"				protocol="Internet Packet Core Utility" references="SHB"/>
+	<number decimal="72"   	keyword="CPNX"				protocol="Computer Protocol Network Executive" references="DXM2"/>
+	<number decimal="73"   	keyword="CPHB"				protocol="Computer Protocol Heart Beat" references="DXM2"/>
+	<number decimal="74"   	keyword="WSN"				protocol="Wang Span Network" references="VXD"/>
+	<number decimal="75"   	keyword="PVP"				protocol="Packet Video Protocol" references="SC3"/>
+	<number decimal="76"   	keyword="BR-SAT-MON"		protocol="Backroom SATNET Monitoring" references="SHB"/>
+	<number decimal="77"   	keyword="SUN-ND"			protocol="SUN ND PROTOCOL-Temporary" references="WM3"/>
+	<number decimal="78"   	keyword="WB-MON"			protocol="WIDEBAND Monitoring" references="SHB"/>
+	<number decimal="79"   	keyword="WB-EXPAK"			protocol="WIDEBAND EXPAK" references="SHB"/>
+	<number decimal="80"   	keyword="ISO-IP"			protocol="ISO Internet Protocol" references="MTR"/>
+	<number decimal="81"   	keyword="VMTP"				protocol="VMTP" references="DRC3"/>
+	<number decimal="82"   	keyword="SECURE-VMTP"		protocol="SECURE-VMTP" references="DRC3"/>
+	<number decimal="83"   	keyword="VINES"				protocol="VINES" references="BXH"/>
+	<number decimal="84"   	keyword="TTP"				protocol="TTP" references="JXS"/>
+	<number decimal="85"   	keyword="NSFNET-IGP"		protocol="NSFNET-IGP" references="HWB"/>
+	<number decimal="86"   	keyword="DGP"				protocol="Dissimilar Gateway Protocol" references="DGP,ML109"/>
+	<number decimal="87"   	keyword="TCF"				protocol="TCF" references="GAL5"/>
+	<number decimal="88"   	keyword="EIGRP"				protocol="EIGRP" references="CISCO,GXS"/>
+	<number decimal="89"   	keyword="OSPFIGP"			protocol="OSPFIGP" references="RFC1583,JTM4"/>
+	<number decimal="90"   	keyword="Sprite-RPC"		protocol="Sprite RPC Protocol" references="SPRITE,BXW"/> 
+	<number decimal="91"   	keyword="LARP"				protocol="Locus Address Resolution Protocol" references="BXH"/>
+	<number decimal="92"   	keyword="MTP"				protocol="Multicast Transport Protocol" references="SXA"/>
+	<number decimal="93"   	keyword="AX.25"				protocol="AX.25 Frames" references="BK29"/> 
+	<number decimal="94"   	keyword="IPIP"				protocol="IP-within-IP Encapsulation Protocol" references="JI6"/>
+	<number decimal="95"   	keyword="MICP"				protocol="Mobile Internetworking Control Pro." references="JI6"/>
+	<number decimal="96"   	keyword="SCC-SP"			protocol="Semaphore Communications Sec. Pro." references="HXH"/> 
+	<number decimal="97"   	keyword="ETHERIP"			protocol="Ethernet-within-IP Encapsulation" references="RFC3378"/>
+	<number decimal="98"   	keyword="ENCAP"				protocol="Encapsulation Header" references="RFC1241,RXB3"/>
+	<number decimal="99" 									protocol="any private encryption scheme" references="IANA"/>
+	<number decimal="100"  	keyword="GMTP"				protocol="GMTP" references="RXB5"/>
+	<number decimal="101"  	keyword="IFMP"				protocol="Ipsilon Flow Management Protocol" references="Hinden"/>
+	<number decimal="102"  	keyword="PNNI"				protocol="PNNI over IP" references="Callon"/>
+	<number decimal="103"  	keyword="PIM"				protocol="Protocol Independent Multicast" references="Farinacci"/>
+	<number decimal="104"  	keyword="ARIS"				protocol="ARIS" references="Feldman"/>
+	<number decimal="105"  	keyword="SCPS "				protocol="SCPS " references="Durst"/>
+	<number decimal="106"  	keyword="QNX "				protocol="QNX " references="Hunter"/>
+	<number decimal="107"  	keyword="A/N"				protocol="Active Networks" references="Braden"/>
+	<number decimal="108"  	keyword="IPComp"			protocol="IP Payload Compression Protocol" references="RFC2393"/>
+	<number decimal="109"  	keyword="SNP"				protocol="Sitara Networks Protocol" references="Sridhar"/>
+	<number decimal="110"  	keyword="Compaq-Peer"		protocol="Compaq Peer Protocol" references="Volpe"/>
+	<number decimal="111"  	keyword="IPX-in-IP"			protocol="IPX in IP   " references="Lee"/>
+	<number decimal="112"  	keyword="VRRP"				protocol="Virtual Router Redundancy Protocol" references="Hinden"/>
+	<number decimal="113"  	keyword="PGM"				protocol="PGM Reliable Transport Protocol" references="Speakman"/>
+	<number decimal="114" 									protocol="any 0-hop protocol" references="IANA"/>
+	<number decimal="115"  	keyword="L2TP"				protocol="Layer Two Tunneling Protocol" references="Aboba"/>
+	<number decimal="116"  	keyword="DDX"				protocol="D-II Data Exchange (DDX)" references="Worley"/> 
+	<number decimal="117"  	keyword="IATP" 				protocol="Interactive Agent Transfer Protocol" references="Murphy"/>
+	<number decimal="118"  	keyword="STP"				protocol="Schedule Transfer Protocol" references="JMP"/>
+	<number decimal="119"  	keyword="SRP"				protocol="SpectraLink Radio Protocol" references="Hamilton"/> 
+	<number decimal="120"  	keyword="UTI"				protocol="UTI " references="Lothberg"/> 
+	<number decimal="121"  	keyword="SMP"				protocol="Simple Message Protocol" references="Ekblad"/>
+	<number decimal="122"  	keyword="SM"				protocol="SM " references="Crowcroft"/>
+	<number decimal="123"  	keyword="PTP"				protocol="Performance Transparency Protocol" references="Welzl"/>
+	<number decimal="124"  	keyword="IS"				protocol="IS over IPv4 " references="Przygienda"/>
+	<number decimal="125"  	keyword="FIRE" 				references="Partridge"/>
+	<number decimal="126"  	keyword="CRTP"				protocol="Combat Radio Transport Protocol" references="Sautter"/>
+	<number decimal="127"  	keyword="CRUDP"				protocol="Combat Radio User Datagram " references="Sautter"/>
+	<number decimal="128"  	keyword="SSCOPMCE" 			references="Waber"/>
+	<number decimal="129"  	keyword="IPLT" 				references="Hollbach"/>
+	<number decimal="130"  	keyword="SPS"				protocol="Secure Packet Shield" references="McIntosh"/> 
+	<number decimal="131"  	keyword="PIPE"				protocol="Private IP Encapsulation within IP" references="Petri"/>
+	<number decimal="132"  	keyword="SCTP"				protocol="Stream Control Transmission Protocol" references="Stewart"/>
+	<number decimal="133"  	keyword="FC"				protocol="Fibre Channel" references="Rajagopal"/>
+	<number decimal="134"  	keyword="RSVP-E2E-IGNORE" 	references="RFC3175"/>
+	<number decimal="135"  	keyword="Mobility Header" 	references="RFC-ietf-mobileip-ipv6-24.txt"/>
+	<number decimal="255"  	keyword="Reserved" 			references="IANA"/>
+	<number decimal="-1"  	keyword="Unassigned" 		references="IANA"/>
+</ipnumber>

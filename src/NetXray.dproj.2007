@@ -1,0 +1,152 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{FB3973DB-B115-4C1F-8DF0-9D0BF14D8123}</ProjectGuid>
+			<MainSource>NetXray.dpr</MainSource>
+			<Base>True</Base>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<Platform>Win32</Platform>
+			<AppType>Application</AppType>
+			<FrameworkType>VCL</FrameworkType>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_UsePackage>vcl;rtl;dbrtl;adortl;vcldb;vclx;bdertl;vcldbx;ibxpress;dsnap;cds;bdecds;qrpt;teeui;teedb;tee;dss;teeqr;visualclx;visualdbclx;dsnapcrba;dsnapcon;VclSmp;vclshlctrls;inetdb;inet;nmfast;vclie;dbexpress;dbxcds;dclOffice2k;Indy60;IcsDel60;DSPack_D6;Hashlib;FlatStyle_D6;SynEdit_D6;tb2k_d6;DJCL60;JVCL200_R60;xmlrtl;inetdbbde;inetdbxpress</DCC_UsePackage>
+			<DCC_SymbolReferenceInfo>1</DCC_SymbolReferenceInfo>
+			<DCC_UnitSearchPath>D:\Project\netxray\src;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+			<DCC_Hints>false</DCC_Hints>
+			<DCC_ExeOutput>D:\Project\netxray\bin</DCC_ExeOutput>
+			<DCC_K>false</DCC_K>
+			<DCC_N>true</DCC_N>
+			<DCC_S>false</DCC_S>
+			<DCC_F>false</DCC_F>
+			<DCC_DcuOutput>D:\Project\netxray\dcu</DCC_DcuOutput>
+			<DCC_IntegerOverflowCheck>true</DCC_IntegerOverflowCheck>
+			<DCC_E>false</DCC_E>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+			<DCC_Optimize>false</DCC_Optimize>
+			<DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="NetXray.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="uMain.pas">
+				<Form>frmMain</Form>
+			</DCCReference>
+			<DCCReference Include="uPacketFrame.pas">
+				<Form>PacketFrame</Form>
+				<DesignClass>TFrame</DesignClass>
+			</DCCReference>
+			<DCCReference Include="uFrameHelper.pas"/>
+			<DCCReference Include="uNodeFrame.pas">
+				<Form>NodeFrame</Form>
+				<DesignClass>TFrame</DesignClass>
+			</DCCReference>
+			<DCCReference Include="uProtoFrame.pas">
+				<Form>ProtoFrame</Form>
+				<DesignClass>TFrame</DesignClass>
+			</DCCReference>
+			<DCCReference Include="sniffer\uNdis_def.pas"/>
+			<DCCReference Include="sniffer\uPacket32.pas"/>
+			<DCCReference Include="sniffer\uProtocolDef.pas"/>
+			<DCCReference Include="sniffer\uSniffer.pas"/>
+			<DCCReference Include="sniffer\uWinPCap.pas"/>
+			<DCCReference Include="uSniffHelper.pas"/>
+			<DCCReference Include="uSniffFilter.pas"/>
+			<DCCReference Include="uPacketAnaysis.pas"/>
+			<DCCReference Include="uSniffEngine.pas"/>
+			<DCCReference Include="uSelAdapter.pas">
+				<Form>frmSelAdapter</Form>
+			</DCCReference>
+			<DCCReference Include="uCommon.pas"/>
+			<DCCReference Include="uProtoXml.pas"/>
+			<DCCReference Include="uAbout.pas">
+				<Form>OKRightDlg</Form>
+			</DCCReference>
+			<DCCReference Include="uNodeTraffic.pas"/>
+			<DCCReference Include="sniffer\uWpCap.pas"/>
+			<DCCReference Include="uHoriWatch.pas"/>
+			<DCCReference Include="uWpCapImpl.pas"/>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>VCLApplication</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">NetXray.dpr</Source>
+					</Source>
+					<Language>
+						<Language Name="RootDir">..\..\..\..\work\project\sniffer\src\</Language>
+					</Language>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">0</VersionInfo>
+						<VersionInfo Name="MinorVer">1</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">2052</VersionInfo>
+						<VersionInfo Name="CodePage">936</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">net_xray@hotmail.com</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription">net_xray@hotmail.com</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">0.1</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName">xray@net</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalCopyright">xray@net</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalTrademarks">xray@net</VersionInfoKeys>
+						<VersionInfoKeys Name="OriginalFilename">netxray.exe</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductName">Xray@Net</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">0.1</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments">written by net_xray@hotmail.com</VersionInfoKeys>
+					</VersionInfoKeys>
+				</Delphi.Personality>
+				<Platforms>
+					<Platform value="Win32">True</Platform>
+				</Platforms>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

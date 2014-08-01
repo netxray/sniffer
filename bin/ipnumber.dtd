@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!ELEMENT ipnumber (number+)>
+<!ATTLIST ipnumber
+	desc		CDATA ""
+>
+<!ELEMENT number EMPTY>
+<!ATTLIST number 
+	decimal CDATA #REQUIRED
+	keyword CDATA "unknown"
+	protocol CDATA "unknown"
+	references CDATA "unknown"
+>

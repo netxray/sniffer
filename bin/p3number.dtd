@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!ELEMENT pppnumber (number+)>
+<!ATTLIST pppnumber
+	desc	CDATA ""
+>
+<!ELEMENT number EMPTY>
+<!ATTLIST number 
+	value CDATA #REQUIRED
+	hex CDATA #REQUIRED
+	desc CDATA "unknown"
+	references CDATA "unknown"
+>

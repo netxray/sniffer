@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!ELEMENT etnumber (number+)>
+<!ATTLIST etnumber
+	desc		CDATA ""
+>
+<!ELEMENT number EMPTY>
+<!ATTLIST number 
+	decimal			CDATA #REQUIRED
+	hex				CDATA "unknown"
+	description		CDATA "unknown"
+	references 		CDATA "unknown"
+>

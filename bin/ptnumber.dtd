@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!ELEMENT portnumber (portlist+)>
+<!ATTLIST portnumber
+	count	CDATA "0"
+>
+<!ELEMENT portlist (port+)>
+<!ATTLIST portlist
+	type CDATA #REQUIRED
+	desc CDATA ""
+>
+<!ELEMENT port EMPTY>
+<!ATTLIST port 
+	number CDATA #REQUIRED
+	desc CDATA "unknown"
+>

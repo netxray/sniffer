@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="GB2312"?>
+<etnumber desc="ETHER TYPES CODE">
+	<number decimal="0000" hex="0000-05DC" description="IEEE802.3 Length Field" references="XEROX"/>
+	<number decimal="0257" hex="0101-01FF" description="Experimental" references="XEROX"/>
+	<number decimal="0512" hex="0200" description="XEROX PUP (see 0A00)" references="8,XEROX"/>
+	<number decimal="0513" hex="0201" description="PUP Addr Trans (see 0A01)" references="XEROX"/>
+	<number decimal="1536" hex="0600" description="XEROX NS IDP" references="133,XEROX"/>
+	<number decimal="2048" hex="0800" description="Internet IP (IPv4)" references="IANA"/>
+	<number decimal="2049" hex="0801" description="X.75 Internet" references="XEROX"/>
+	<number decimal="2050" hex="0802" description="NBS Internet" references="XEROX"/>
+	<number decimal="2051" hex="0803" description="ECMA Internet" references="XEROX"/>
+	<number decimal="2052" hex="0804" description="Chaosnet" references="XEROX"/>
+	<number decimal="2053" hex="0805" description="X.25 Level 3" references="XEROX"/>
+	<number decimal="2054" hex="0806" description="ARP Address Resolution Protocol" references="IANA"/>
+	<number decimal="2055" hex="0807" description="XNS Compatability" references="XEROX"/>
+	<number decimal="2056" hex="0808" description="Frame Relay ARP" references="RFC1701"/>
+	<number decimal="2076" hex="081C" description="Symbolics Private" references="DCP1"/>
+	<number decimal="2184" hex="0888-088A" description="Xyplex" references="XEROX"/>
+	<number decimal="2304" hex="0900" description="Ungermann-Bass net debugr" references="XEROX"/>
+	<number decimal="2560" hex="0A00" description="Xerox IEEE802.3 PUP" references="XEROX"/>
+	<number decimal="2561" hex="0A01" description="PUP Addr Trans" references="XEROX"/>
+	<number decimal="2989" hex="0BAD" description="Banyan VINES" references="XEROX"/>
+	<number decimal="2990" hex="0BAE" description="VINES Loopback" references="RFC1701"/>
+	<number decimal="2991" hex="0BAF" description="VINES Echo" references="RFC1701"/>
+	<number decimal="4096" hex="1000" description="Berkeley Trailer nego" references="XEROX"/>
+	<number decimal="4097" hex="1001-100F" description="Berkeley Trailer encap/IP" references="XEROX"/>
+	<number decimal="5632" hex="1600" description="Valid Systems" references="XEROX"/>
+	<number decimal="16962" hex="4242" description="PCS Basic Block Protocol" references="XEROX"/>
+	<number decimal="21000" hex="5208" description="BBN Simnet" references="XEROX"/>
+	<number decimal="24576" hex="6000" description="DEC Unassigned (Exp.)" references="XEROX"/>
+	<number decimal="24577" hex="6001" description="DEC MOP Dump/Load" references="XEROX"/>
+	<number decimal="24578" hex="6002" description="DEC MOP Remote Console" references="XEROX"/>
+	<number decimal="24579" hex="6003" description="DEC DECNET Phase IV Route" references="XEROX"/>
+	<number decimal="24580" hex="6004" description="DEC LAT" references="XEROX"/>
+	<number decimal="24581" hex="6005" description="DEC Diagnostic Protocol" references="XEROX"/>
+	<number decimal="24582" hex="6006" description="DEC Customer Protocol" references="XEROX"/>
+	<number decimal="24583" hex="6007" description="DEC LAVC, SCA" references="XEROX"/>
+	<number decimal="24584" hex="6008-6009" description="DEC Unassigned" references="XEROX"/>
+	<number decimal="24586" hex="6010-6014" description="3Com Corporation" references="XEROX"/>
+	<number decimal="25944" hex="6558" description="Trans Ether Bridging" references="RFC1701"/>
+	<number decimal="25945" hex="6559" description="Raw Frame Relay" references="RFC1701"/>
+	<number decimal="28672" hex="7000" description="Ungermann-Bass download" references="XEROX"/>
+	<number decimal="28674" hex="7002" description="Ungermann-Bass dia/loop" references="XEROX"/> 
+	<number decimal="28704" hex="7020-7029" description="LRT" references="XEROX"/>
+	<number decimal="28720" hex="7030" description="Proteon" references="XEROX"/>
+	<number decimal="28724" hex="7034" description="Cabletron" references="XEROX"/>
+	<number decimal="32771" hex="8003" description="Cronus VLN" references="131,DT15"/>
+	<number decimal="32772" hex="8004" description="Cronus Direct" references="131,DT15"/>
+	<number decimal="32773" hex="8005" description="HP Probe" references="XEROX"/>
+	<number decimal="32774" hex="8006" description="Nestar" references="XEROX"/>
+	<number decimal="32776" hex="8008" description="ATNT" references="XEROX"/>
+	<number decimal="32784" hex="8010" description="Excelan" references="XEROX"/>
+	<number decimal="32787" hex="8013" description="SGI diagnostics" references="AXC"/>
+	<number decimal="32788" hex="8014" description="SGI network games" references="AXC"/>
+	<number decimal="32789" hex="8015" description="SGI reserved" references="AXC"/>
+	<number decimal="32790" hex="8016" description="SGI bounce server" references="AXC"/>
+	<number decimal="32793" hex="8019" description="Apollo Domain" references="XEROX"/>
+	<number decimal="32815" hex="802E" description="Tymshare" references="XEROX"/>
+	<number decimal="32816" hex="802F" description="Tigan, Inc." references="XEROX"/>
+	<number decimal="32821" hex="8035" description="Reverse ARP" references="48,JXM"/>
+	<number decimal="32822" hex="8036" description="Aeonic Systems" references="XEROX"/>
+	<number decimal="32824" hex="8038" description="DEC LANBridge" references="XEROX"/>
+	<number decimal="32825" hex="8039-803C" description="DEC Unassigned" references="XEROX"/>
+	<number decimal="32829" hex="803D" description="DEC Ethernet Encryption" references="XEROX"/>
+	<number decimal="32830" hex="803E" description="DEC Unassigned" references="XEROX"/>
+	<number decimal="32831" hex="803F" description="DEC LAN Traffic Monitor" references="XEROX"/>
+	<number decimal="32832" hex="8040-8042" description="DEC Unassigned" references="XEROX"/>
+	<number decimal="32836" hex="8044" description="Planning Research Corp." references="XEROX"/>
+	<number decimal="32838" hex="8046" description="AT_T" references="XEROX"/>
+	<number decimal="32839" hex="8047" description="AT_T" references="XEROX"/>
+	<number decimal="32841" hex="8049" description="ExperData" references="XEROX"/> 
+	<number decimal="32859" hex="805B" description="Stanford V Kernel exp." references="XEROX"/>
+	<number decimal="32860" hex="805C" description="Stanford V Kernel prod." references="XEROX"/>
+	<number decimal="32861" hex="805D" description="Evans _ Sutherland" references="XEROX"/>
+	<number decimal="32864" hex="8060" description="Little Machines" references="XEROX"/>
+	<number decimal="32866" hex="8062" description="Counterpoint Computers" references="XEROX"/>
+	<number decimal="32869" hex="8065" description="Univ. of Mass. @ Amherst" references="XEROX"/>
+	<number decimal="32870" hex="8066" description="Univ. of Mass. @ Amherst" references="XEROX"/>
+	<number decimal="32871" hex="8067" description="Veeco Integrated Auto." references="XEROX"/>
+	<number decimal="32872" hex="8068" description="General Dynamics" references="XEROX"/>
+	<number decimal="32873" hex="8069" description="AT_T" references="XEROX"/>
+	<number decimal="32874" hex="806A" description="Autophon" references="XEROX"/>
+	<number decimal="32876" hex="806C" description="ComDesign" references="XEROX"/>
+	<number decimal="32877" hex="806D" description="Computgraphic Corp." references="XEROX"/>
+	<number decimal="32878" hex="806E-8077" description="Landmark Graphics Corp." references="XEROX"/>
+	<number decimal="32890" hex="807A" description="Matra" references="XEROX"/>
+	<number decimal="32891" hex="807B" description="Dansk Data Elektronik" references="XEROX"/>
+	<number decimal="32892" hex="807C" description="Merit Internodal" references="HWB"/>
+	<number decimal="32893" hex="807D-807F" description="Vitalink Communications" references="XEROX"/>
+	<number decimal="32896" hex="8080" description="Vitalink TransLAN III" references="XEROX"/>
+	<number decimal="32897" hex="8081-8083" description="Counterpoint Computers" references="XEROX"/>
+	<number decimal="32923" hex="809B" description="Appletalk" references="XEROX"/>
+	<number decimal="32924" hex="809C-809E" description="Datability" references="XEROX"/>
+	<number decimal="32927" hex="809F" description="Spider Systems Ltd." references="XEROX"/>
+	<number decimal="32931" hex="80A3" description="Nixdorf Computers" references="XEROX"/>
+	<number decimal="32932" hex="80A4-80B3" description="Siemens Gammasonics Inc." references="XEROX"/>
+	<number decimal="32960" hex="80C0-80C3" description="DCA Data Exchange Cluster" references="XEROX"/>
+	<number decimal="32964" hex="80C4" description="Banyan Systems" references="XEROX"/>
+	<number decimal="32965" hex="80C5" description="Banyan Systems" references="XEROX"/>
+	<number decimal="32966" hex="80C6" description="Pacer Software" references="XEROX"/>
+	<number decimal="32967" hex="80C7" description="Applitek Corporation" references="XEROX"/>
+	<number decimal="32968" hex="80C8-80CC" description="Intergraph Corporation" references="XEROX"/>
+	<number decimal="32973" hex="80CD-80CE" description="Harris Corporation" references="XEROX"/>
+	<number decimal="32975" hex="80CF-80D2" description="Taylor Instrument" references="XEROX"/>
+	<number decimal="32979" hex="80D3-80D4" description="Rosemount Corporation" references="XEROX"/>
+	<number decimal="32981" hex="80D5" description="IBM SNA Service on Ether" references="XEROX"/>
+	<number decimal="32989" hex="80DD" description="Varian Associates" references="XEROX"/>
+	<number decimal="32990" hex="80DE-80DF" description="Integrated Solutions TRFS" references="XEROX"/>
+	<number decimal="32992" hex="80E0-80E3" description="Allen-Bradley" references="XEROX"/>
+	<number decimal="32996" hex="80E4-80F0" description="Datability" references="XEROX"/>
+	<number decimal="33010" hex="80F2" description="Retix" references="XEROX"/>
+	<number decimal="33011" hex="80F3" description="AppleTalk AARP (Kinetics)" references="XEROX"/>
+	<number decimal="33012" hex="80F4-80F5" description="Kinetics" references="XEROX"/>
+	<number decimal="33015" hex="80F7" description="Apollo Computer" references="XEROX"/>
+	<number decimal="33023" hex="80FF-8103" description="Wellfleet Communications" references="XEROX"/>
+	<number decimal="33031" hex="8107-8109" description="Symbolics Private" references="XEROX"/>
+	<number decimal="33072" hex="8130" description="Hayes Microcomputers" references="XEROX"/>
+	<number decimal="33073" hex="8131" description="VG Laboratory Systems" references="XEROX"/>
+	<number decimal="33074" hex="8132-8136" description="Bridge Communications" references="XEROX"/>
+	<number decimal="33079" hex="8137-8138" description="Novell, Inc." references="XEROX"/>
+	<number decimal="33081" hex="8139-813D" description="KTI" references="XEROX"/>
+	<number decimal="33100" hex="814C" description="SNMP" references="JKR1"/>
+	<number decimal="34916" hex="8864" description="PPPoE Session (PPP over Ethernet)" references="unknown"/>
+	<number decimal="34525" hex="86DD" description="IPv6" references="IANA"/>
+	<number decimal="34543" hex="86DF" description="ATOMIC" references="Postel"/>
+	<number decimal="34667" hex="876B" description="TCP/IP Compression" references="RFC1144"/>
+	<number decimal="34668" hex="876C" description="IP Autonomous Systems" references="RFC1701"/>
+	<number decimal="34669" hex="876D" description="Secure Data" references="RFC1701"/>
+	<number decimal="34827" hex="880B" description="PPP" references="IANA"/> 
+	<number decimal="36864" hex="9000" description="Loopback" references="XEROX"/>
+	<number decimal="36865" hex="9001" description="3Com(Bridge) XNS Sys Mgmt" references="XEROX"/>
+	<number decimal="36866" hex="9002" description="3Com(Bridge) TCP-IP Sys" references="XEROX"/>
+	<number decimal="36867" hex="9003" description="3Com(Bridge) loop detect" references="XEROX"/>
+	<number decimal="65280" hex="FF00" description="BBN VITAL-LanBridge cache" references="XEROX"/> 
+	<number decimal="65535" hex="FFFF" description="Reserved" references="RFC1701"/>
+</etnumber>

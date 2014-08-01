@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!--DOCTYPE IPNUMBER SYSTEM "p3number.dtd"-->
+<!-- 
+PPP DataLink Layer
+Value (in hex) Protocol Name Reference
+-->
+<pppnumber desc="Assigned PPP DLL Protocol Numbers">
+	<number value="1" hex="0001" desc="Padding Protocol"/>
+	<number value="3" hex="0003" desc="ROHC small-CID" references="RFC3095"/>
+	<number value="5" hex="0005" desc="ROHC large-CID" references="RFC3095"/>
+	<number value="7" hex="0007-001F" desc="reserved (transparency inefficient)"/>
+	<number value="33" hex="0021" desc="Internet Protocol version 4"/>
+	<number value="35" hex="0023" desc="OSI Network Layer"/>
+	<number value="37" hex="0025" desc="Xerox NS IDP"/>
+	<number value="39" hex="0027" desc="DECnet Phase IV"/>
+	<number value="41" hex="0029" desc="Appletalk"/>
+	<number value="43" hex="002B" desc="Novell IPX"/>
+	<number value="45" hex="002D" desc="Van Jacobson Compressed TCP/IP"/>
+	<number value="47" hex="002F" desc="Van Jacobson Uncompressed TCP/IP"/>
+	<number value="49" hex="0031" desc="Bridging PDU"/>
+	<number value="51" hex="0033" desc="Stream Protocol (ST-II)"/>
+	<number value="53" hex="0035" desc="Banyan Vines"/>
+	<number value="55" hex="0037" desc="reserved (until 1993)" references="Typo in RFC1172"/>
+	<number value="57" hex="0039" desc="AppleTalk EDDP"/>
+	<number value="59" hex="003B" desc="AppleTalk SmartBuffered"/>
+	<number value="61" hex="003D" desc="Multi-Link" references="RFC1717"/>
+	<number value="63" hex="003F" desc="NETBIOS Framing"/>
+	<number value="65" hex="0041" desc="Cisco Systems"/>
+	<number value="67" hex="0043" desc="Ascom Timeplex"/>
+	<number value="69" hex="0045" desc="Fujitsu Link Backup and Load Balancing (LBLB)"/>
+	<number value="71" hex="0047" desc="DCA Remote Lan"/>
+	<number value="73" hex="0049" desc="Serial Data Transport Protocol (PPP-SDTP)"/>
+	<number value="75" hex="004B" desc="SNA over 802.2"/>
+	<number value="77" hex="004D" desc="SNA"/>
+	<number value="79" hex="004F" desc="IPv6 Header Compression"/>
+	<number value="81" hex="0051" desc="KNX Bridging Data" references="ianp"/>
+	<number value="83" hex="0053" desc="Encryption" references="Meyer"/>
+	<number value="85" hex="0055" desc="Individual Link Encryption" references="Meyer"/>
+	<number value="87" hex="0057" desc="Internet Protocol version 6" references="Hinden"/>
+	<number value="89" hex="0059" desc="PPP Muxing" references="RFC3153"/>
+	<number value="91" hex="005B" desc="Vendor-Specific Network Protocol (VSNP)" references="Winslow"/>
+	<number value="97" hex="0061" desc="RTP IPHC Full Header" references="RFC3544"/>
+	<number value="99" hex="0063" desc="RTP IPHC Compressed TCP" references="RFC3544"/>
+	<number value="101" hex="0065" desc="RTP IPHC Compressed Non TCP" references="RFC3544"/>
+	<number value="103" hex="0067" desc="RTP IPHC Compressed UDP 8" references="RFC3544"/>
+	<number value="105" hex="0069" desc="RTP IPHC Compressed RTP 8" references="RFC3544"/>
+	<number value="111" hex="006F" desc="Stampede Bridging"/>
+	<number value="113" hex="0071" desc="Reserved" references="Fox"/>
+	<number value="115" hex="0073" desc="MP+ Protocol" references="Smith"/>
+	<number value="125" hex="007D" desc="reserved (Control Escape)" references="RFC1661"/>
+	<number value="127" hex="007F" desc="reserved (compression inefficient)" references="RFC1662"/>
+	<number value="129" hex="0081" desc="Reserved Until 20-Oct-2000" references="IANA"/>
+	<number value="131" hex="0083" desc="Reserved Until 20-Oct-2000" references="IANA"/>
+	<number value="193" hex="00C1" desc="NTCITS IPI" references="Ungar"/>
+	<number value="207" hex="00CF" desc="reserved (PPP NLPID)"/>
+	<number value="251" hex="00FB" desc="single link compression in multilink" references="RFC1962"/>
+	<number value="253" hex="00FD" desc="compressed datagram" references="RFC1962"/>
+	<number value="255" hex="00FF" desc="reserved (compression inefficient)"/>
+	<!-- 02xx-1exx (compression inefficient) -->
+	<number value="513" hex="0201" desc="802.1d Hello Packets"/>
+	<number value="515" hex="0203" desc="IBM Source Routing BPDU"/>
+	<number value="517" hex="0205" desc="DEC LANBridge100 Spanning Tree"/>
+	<number value="519" hex="0207" desc="Cisco Discovery Protocol" references="Sastry"/>
+	<number value="521" hex="0209" desc="Netcs Twin Routing" references="Korfmacher"/>
+	<number value="523" hex="020B" desc="STP - Scheduled Transfer Protocol" references="Segal"/>
+	<number value="525" hex="020D" desc="EDP - Extreme Discovery Protocol" references="Grosser"/>
+	<number value="529" hex="0211" desc="Optical Supervisory Channel Protocol (OSCP)" references="Prasad"/>
+	<number value="531" hex="0213" desc="Optical Supervisory Channel Protocol (OSCP)" references="Prasad"/>
+	<number value="561" hex="0231" desc="Luxcom"/>
+	<number value="563" hex="0233" desc="Sigma Network Systems"/>
+	<number value="565" hex="0235" desc="Apple Client Server Protocol" references="Ridenour"/>
+	<number value="641" hex="0281" desc="MPLS Unicast" references="RFC3032"/>
+	<number value="643" hex="0283" desc="MPLS Multicast" references="RFC3032"/>
+	<number value="645" hex="0285" desc="IEEE p1284.4 standard - data packets" references="Batchelder"/>
+	<number value="647" hex="0287" desc="ETSI TETRA Network Protocol Type 1" references="Nieminen"/>
+	<number value="649" hex="0289" desc="Multichannel Flow Treatment Protocol" references="McCann"/>
+	<number value="8291" hex="2063" desc="RTP IPHC Compressed TCP No Delta" references="RFC3544"/>
+	<number value="8293" hex="2065" desc="RTP IPHC Context State" references="RFC3544"/>
+	<number value="8295" hex="2067" desc="RTP IPHC Compressed UDP 16" references="RFC3544"/>
+	<number value="8297" hex="2069" desc="RTP IPHC Compressed RTP 16" references="RFC3544"/>
+	<!-- -->
+	<number value="16385" hex="4001" desc="Cray Communications Control Protocol" references="Stage"/>
+	<number value="16387" hex="4003" desc="CDPD Mobile Network Registration Protocol" references="Quick"/>
+	<number value="16389" hex="4005" desc="Expand accelerator protocol" references="Rachmani"/>
+	<number value="16391" hex="4007" desc="ODSICP NCP" references="Arvind"/>
+	<number value="16393" hex="4009" desc="DOCSIS DLL" references="Gaedtke"/>
+	<number value="16395" hex="400B" desc="Cetacean Network Detection Protocol" references="Siller"/>
+	<number value="16417" hex="4021" desc="Stacker LZS" references="Simpson"/>
+	<number value="16419" hex="4023" desc="RefTek Protocol" references="Banfill"/>
+	<number value="16421" hex="4025" desc="Fibre Channel" references="Rajagopal"/>
+	<number value="16423" hex="4027" desc="EMIT Protocols" references="Eastham"/>
+	<number value="16475" hex="405B" desc="Vendor-Specific Protocol (VSP)" references="Winslow"/>
+	<!-- -->
+	<number value="32769" hex="8001-801F" desc="Not Used - reserved" references="RFC1661"/>
+	<number value="32801" hex="8021" desc="Internet Protocol Control Protocol"/>
+	<number value="32803" hex="8023" desc="OSI Network Layer Control Protocol"/>
+	<number value="32805" hex="8025" desc="Xerox NS IDP Control Protocol"/>
+	<number value="32807" hex="8027" desc="DECnet Phase IV Control Protocol"/>
+	<number value="32809" hex="8029" desc="Appletalk Control Protocol"/>
+	<number value="32811" hex="802B" desc="Novell IPX Control Protocol"/>
+	<number value="32813" hex="802D" desc="reserved"/>
+	<number value="32815" hex="802F" desc="reserved"/>
+	<number value="32817" hex="8031" desc="Bridging NCP"/>
+	<number value="32819" hex="8033" desc="Stream Protocol Control Protocol"/>
+	<number value="32821" hex="8035" desc="Banyan Vines Control Protocol"/>
+	<number value="32823" hex="8037" desc="reserved (until 1993)" references="See note for 0037"/>
+	<number value="32825" hex="8039" desc="reserved"/>
+	<number value="32827" hex="803B" desc="reserved"/>
+	<number value="32829" hex="803D" desc="Multi-Link Control Protocol"/>
+	<number value="32831" hex="803F" desc="NETBIOS Framing Control Protocol"/>
+	<number value="32833" hex="8041" desc="Cisco Systems Control Protocol"/>
+	<number value="32835" hex="8043" desc="Ascom Timeplex"/>
+	<number value="32837" hex="8045" desc="Fujitsu LBLB Control Protocol"/>
+	<number value="32839" hex="8047" desc="DCA Remote Lan Network Control Protocol (RLNCP)"/>
+	<number value="32841" hex="8049" desc="Serial Data Control Protocol (PPP-SDCP)"/>
+	<number value="32843" hex="804B" desc="SNA over 802.2 Control Protocol"/>
+	<number value="32845" hex="804D" desc="SNA Control Protocol"/>
+	<number value="32847" hex="804F" desc="IP6 Header Compression Control Protocol"/>
+	<number value="32849" hex="8051" desc="KNX Bridging Control Protocol" references="ianp"/>
+	<number value="32851" hex="8053" desc="Encryption Control Protocol" references="Meyer"/>
+	<number value="32853" hex="8055" desc="Individual Link Encryption Control Protocol" references="Meyer"/>
+	<number value="32855" hex="8057" desc="IPv6 Control Protovol" references="Hinden"/>
+	<number value="32857" hex="8059" desc="PPP Muxing Control Protocol" references="RFC3153"/>
+	<number value="32859" hex="805B" desc="Vendor-Specific Network Control Protocol (VSNCP)" references="Winslow"/>
+	<number value="32879" hex="806F" desc="Stampede Bridging Control Protocol"/>
+	<number value="32883" hex="8073" desc="MP+ Control Protocol" references="Smith"/>
+	<number value="32881" hex="8071" desc="Reserved" references="Fox"/>
+	<number value="32893" hex="807D" desc="Not Used - reserved" references="RFC1661"/>
+	<number value="32897" hex="8081" desc="Reserved Until 20-Oct-2000" references="IANA"/>
+	<number value="32899" hex="8083" desc="Reserved Until 20-Oct-2000" references="IANA"/>
+	<number value="32961" hex="80C1" desc="NTCITS IPI Control Protocol" references="Ungar"/>
+	<number value="32975" hex="80CF" desc="Not Used - reserved" references="RFC1661"/>
+	<number value="33019" hex="80FB" desc="single link compression in multilink control" references="RFC1962"/>
+	<number value="33021" hex="80FD" desc="Compression Control Protocol" references="RFC1962"/>
+	<number value="33023" hex="80FF" desc="Not Used - reserved" references="RFC1661"/>
+	<!-- -->
+	<number value="33287" hex="8207" desc="Cisco Discovery Protocol Control" references="Sastry"/>
+	<number value="33289" hex="8209" desc="Netcs Twin Routing" references="Korfmacher"/>
+	<number value="33291" hex="820B" desc="STP - Control Protocol" references="Segal"/>
+	<number value="33293" hex="820D" desc="EDPCP - Extreme Discovery Protocol Ctrl Prtcl" references="Grosser"/>
+	<number value="33333" hex="8235" desc="Apple Client Server Protocol Control" references="Ridenour"/>
+	<number value="33409" hex="8281" desc="MPLSCP" references="RFC3032"/>
+	<number value="33413" hex="8285" desc="IEEE p1284.4 standard - Protocol Control" references="Batchelder"/>
+	<number value="33415" hex="8287" desc="ETSI TETRA TNP1 Control Protocol" references="Nieminen"/>
+	<number value="33417" hex="8289" desc="Multichannel Flow Treatment Protocol" references="McCann"/>
+	<!-- -->
+	<number value="49185" hex="C021" desc="Link Control Protocol"/>
+	<number value="49187" hex="C023" desc="Password Authentication Protocol"/>
+	<number value="49189" hex="C025" desc="Link Quality Report"/>
+	<number value="49191" hex="C027" desc="Shiva Password Authentication Protocol"/>
+	<number value="49193" hex="C029" desc="CallBack Control Protocol (CBCP)"/>
+	<number value="49195" hex="C02B" desc="BACP Bandwidth Allocation Control Protocol" references="RFC2125"/>
+	<number value="49197" hex="C02D" desc="BAP" references="RFC2125"/>
+	<number value="49243" hex="C05B" desc="Vendor-Specific Authentication Protocol (VSAP)" references="Winslow"/>
+	<!-- -->
+	<number value="49281" hex="C081" desc="Container Control Protocol" references="KEN"/>
+	<number value="49699" hex="C223" desc="Challenge Handshake Authentication Protocol"/>
+	<number value="49701" hex="C225" desc="RSA Authentication Protocol" references="Narayana"/>
+	<number value="49703" hex="C227" desc="Extensible Authentication Protocol" references="RFC2284"/>
+	<number value="49705" hex="C229" desc="Mitsubishi Security Info Exch Ptcl (SIEP)" references="Seno"/>
+	<number value="49775" hex="C26F" desc="Stampede Bridging Authorization Protocol"/>
+	<number value="49793" hex="C281" desc="Proprietary Authentication Protocol" references="KEN"/>
+	<number value="49795" hex="C283" desc="Proprietary Authentication Protocol" references="Tackabury"/>
+	<number value="50305" hex="C481" desc="Proprietary Node ID Authentication Protocol" references="KEN"/>
+</pppnumber>

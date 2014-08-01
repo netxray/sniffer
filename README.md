@@ -1,8 +1,10 @@
 sniffer
 =======
 
-a simple network packet sniffer like NexXray for Win9x.
+a simple network packet sniffer for win7.
 
-just for fun.
+copy from the famous sniffer product under win9x: NetXray.
+
+just for fun. :)
 
 ![image](https://github.com/netxray/sniffer/blob/master/sniffer.jpg)
